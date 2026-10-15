@@ -104,7 +104,7 @@
 
             <HBox spacing="8">
                 <Button fx:id="btnBuscar" onAction="#Buscar_producto" text="Buscar" />
-                <Button fx:id="btnLimpiarFiltros" text="Limpiar filtros" />
+                <Button fx:id="btnLimpiarFiltros" onAction="#limpiarFiltros" text="Limpiar filtros" />
             </HBox>
         </VBox>
     </top>

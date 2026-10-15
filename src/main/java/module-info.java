@@ -2,6 +2,7 @@ module ni.edu.uam.proyectocrudg3 {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
+    requires org.postgresql.jdbc;
 
 
     opens ni.edu.uam.proyectocrudg3 to javafx.fxml;
