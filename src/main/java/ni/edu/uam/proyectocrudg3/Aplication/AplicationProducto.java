@@ -11,8 +11,8 @@ public class AplicationProducto extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(AplicationProducto.class.getResource("/ni/edu/uam/proyectocrudg3/producto-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 600);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(fxmlLoader.load()); // Usa el tamaño definido en el FXML (1120 x 720).
+        stage.setTitle("Gestión de productos");
         stage.setScene(scene);
         stage.show();
     }
